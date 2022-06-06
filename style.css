@@ -1,0 +1,197 @@
+:root {
+    --bg-color-dark: #1f2937;
+    --bg-color-secondary: #e5e7eb;
+    --text-color-primary: #f9faf8;
+    --button-color: #3882f6;    
+}
+body {
+    margin:0;
+    width:100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--bg-color-secondary);
+}
+
+/*Buttons*/
+.button {
+    background-color: var(--button-color);
+    color: var(--text-color-primary);
+    border-radius: 7px;
+    padding: 10px 20px;
+    margin: auto;
+}
+
+.button__secondary {
+    border: 2px solid #fff;
+}
+
+/* Header */
+header {
+    margin:0;
+    box-sizing: border-box;
+    padding: 30px 80px;
+    width: 100%;
+    height: 430px;
+    overflow: hidden;
+    background-color: var(--bg-color-dark);
+    display: flex;
+    justify-content: center;
+}
+
+.header__inner {
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+.header__inner-top {
+   display: flex;
+   justify-content: space-between;
+}
+
+.header__logo {
+    color: var(--text-color-primary);
+
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__nav a {
+    margin-left: 10px;
+}
+
+.header__inner-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__bottom-content {
+    margin-top: 80px;
+}
+
+.header__bottom-content p{
+    color: var(--text-color-primary);
+    margin-bottom: 30px;
+}
+
+.header__heading {
+    color: var(--text-color-primary);
+}
+
+.header__logo-img {
+    margin: 30px 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 40px;
+    -webkit-filter: grayscale(1) invert(1);
+    filter: grayscale(1) invert(1);
+}
+
+
+/*Section informational*/
+
+.section {
+    padding: 100px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.section__informational {
+
+}
+
+.section__informational-title {
+    text-align: center;
+    color: var(--bg-color-dark);
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.beer_types {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.beer_type {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    text-align: center;
+}
+
+.beer_img {
+    height:150px;
+    width: 100px;
+}
+
+.beer_description {
+    color: #1f2937;
+    font-size: 20px;
+}
+
+/*Section testimonial*/
+.section__testimonial {
+    padding: 10%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.testimonial__message {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    padding:0;
+    margin:0;
+}
+
+.testimonial__name {
+    font-size: 25px;
+    font-weight: bold;
+    align-self: flex-end;
+    padding:0;
+    margin:0;
+}
+ /*Signup section*/
+ .signup-wrapper {
+     background-color: #3882f6;
+     display: flex;
+     padding: 50px 100px;
+
+ }
+
+ .text-wrapper {
+     margin-right: 30px;
+ }
+
+ .signup__heading {
+     color: #fff;
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 600;
+     margin:0;
+ }
+
+ .signup__text {
+     color: #fff;
+     font-size: 15px;
+     margin:0;
+ }
+
+ /*Footer*/
+ .footer {
+    height: 70px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    line-height: 70px;
+ }
