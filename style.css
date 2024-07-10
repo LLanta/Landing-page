@@ -34,6 +34,12 @@ header, footer{
     list-style-type: none;
 }
 
+.links ul li a{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
 .header-content{
     display: flex;
     justify-content: space-evenly;
@@ -63,4 +69,34 @@ header, footer{
     border: none;
     border-radius: 5px;
     padding: 3px 12px;
+}
+
+.product-info{
+    padding-bottom: 50px;
+}
+
+.product-info h1{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+.product-info .img{
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.img-container p{
+    width: 105px;
+    text-align: center;
+    font-size: 15px;
 }
